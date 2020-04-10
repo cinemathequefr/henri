@@ -1,0 +1,1 @@
+var n=function(n,t){return n?"L'"===n?`${n}${t}`:`${n} ${t}`:t},t=function(n,t,f){if(!f)return"";let r=n,e=t;return"function"!=typeof n&&(n=(()=>r||"")),"function"!=typeof t&&(t=(()=>e||"")),n(f)+f+t(f)};export{t as a,n as f};
