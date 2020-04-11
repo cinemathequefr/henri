@@ -17,6 +17,14 @@ a {
   color: inherit;
 }
 
+hr {
+  border: none;
+  border-top: solid 1px #ccc;
+  width: 120px;
+  padding: 12px 0 0 0;
+  margin: 24px 0 0 0;
+}
+
 section {
   display: block;
   overflow: hidden;
