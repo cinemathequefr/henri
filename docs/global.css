@@ -409,7 +409,8 @@ a.catfilm {
 
   ul.grid {
     grid-template-columns: 1fr;
-    grid-gap: 4px;
+    grid-gap: 12px;
+    /* grid-gap: 4px; */
   }
   li.film {
     padding: 0;
@@ -423,7 +424,7 @@ a.catfilm {
     width: 50%;
     padding-bottom: 37.5%;
     background-color: #000;
-    margin-bottom: 8px;
+    margin-bottom: 0;
   }
   li.film .film-info {
     padding: 0 0 0 8px;
