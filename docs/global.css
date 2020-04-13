@@ -330,6 +330,10 @@ li.film .img-container img {
   font-weight: 600;
 }
 
+.rem {
+  font-style: italic;
+}
+
 .film-page .realisateurs,
 .film-page .synopsis {
   font-weight: 400;
