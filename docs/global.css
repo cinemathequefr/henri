@@ -366,6 +366,12 @@ a.catfilm {
   height: 100%;
 }
 
+@media (max-width: 374px) {
+  .pick-title-container .sous-titre-fr {
+    display: none;
+  }
+}
+
 @media (max-width: 575px) {
   html {
     font-size: 15px;
