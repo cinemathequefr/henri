@@ -154,8 +154,15 @@ a.pick-img {
 }
 
 .sous-titre-fr {
-  opacity: 0.5;
   display: block;
+}
+
+.pick-title-container .sous-titre-fr {
+  opacity: 0.5;
+}
+
+.titre-film .sous-titre-fr {
+  color: #a14353;
 }
 
 a.pick-img > img {
