@@ -161,7 +161,11 @@ a.pick-img {
   opacity: 0.5;
 }
 
-.titre-film .sous-titre-fr {
+h1.colored .sous-titre-fr {
+  color: #607b7f;
+}
+
+h1.colored.ispick .sous-titre-fr {
   color: #a14353;
 }
 
