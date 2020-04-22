@@ -87,15 +87,17 @@ h2 {
   left: 0;
   height: 128px;
   margin-left: 24px;
-  border-left: solid 4px #ff4256;
+  border-left: solid 4px #da1c23;
+  /* border-left: solid 4px #ff4256; */
   /* border-left: solid 4px #ff406c; */
 }
 
 .pick-label > h2 {
   margin: 0;
   display: inline-block;
-  background: #ff406c;
-  background: linear-gradient(90deg, #ff406c 0%, #ff406c 15%, #ff4633 100%);
+  background: #da1c23;
+  /* background: #ff406c;
+  background: linear-gradient(90deg, #ff406c 0%, #ff406c 15%, #ff4633 100%); */
   color: #444450;
   padding: 6px 12px 6px 12px;
   /* padding: 6px 18px 6px 18px; */
@@ -127,9 +129,11 @@ a.pick-img {
   background-color: #000;
 }
 
-.pick a.more {
+/* .pick a.more { */
+a.more {
   font-weight: 600;
-  color: #ff4256;
+  color: #da1c23;
+  /* color: #ff4256; */
   /* color: #ff406c; */
   text-decoration: none;
 }
@@ -148,7 +152,8 @@ a.pick-img {
   left: 0;
   padding: 0 15%;
   font-weight: 700;
-  color: #ff4256;
+  color: #da1c23;
+  /* color: #ff4256; */
   /* color: #ff406c; */
   text-align: center;
 }
@@ -185,7 +190,8 @@ a.pick-img > .duree {
   display: inline-block;
   padding: 2px 4px;
   color: #111;
-  background-color: #ff4256;
+  background-color: #da1c23;
+  /* background-color: #ff4256; */
   /* background-color: #ff406c; */
   font-size: 1rem;
   font-weight: 600;
@@ -315,7 +321,8 @@ li.film .img-container img {
 }
 
 .colored.ispick {
-  color: #ff4256;
+  color: #da1c23;
+  /* color: #ff4256; */
   /* color: #ff406c; */
 }
 
