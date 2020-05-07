@@ -340,6 +340,15 @@ li.film .img-container img {
   /* color: #ff406c; */
 }
 
+.film-page .end {
+  display: inline-block;
+  background-color: #7db3af;
+  color: #444450;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 3px;
+}
+
 .film-page .titre-film {
   margin-bottom: 24px;
 }
