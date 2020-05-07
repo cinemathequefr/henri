@@ -301,6 +301,16 @@ li.film .img-container img {
   margin-bottom: 0.25rem;
 }
 
+.film-info .end {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 2px 4px;
+  border-radius: 3px;
+  background-color: #72b7bb;
+  color: #444450;
+  font-weight: 600;
+}
+
 .img-container > .duree {
   position: absolute;
   bottom: 4px;
