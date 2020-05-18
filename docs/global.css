@@ -76,6 +76,11 @@ h2 {
   margin-left: 24px;
 }
 
+h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
 .pick-container {
   position: relative;
   margin: 64px 0 48px 0;
