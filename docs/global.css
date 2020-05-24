@@ -128,6 +128,7 @@ h3 {
 .pick-img-container {
   position: relative;
   width: 50%;
+  overflow: hidden;
 }
 
 a.pick-img {
@@ -136,6 +137,15 @@ a.pick-img {
   width: 100%;
   padding-bottom: 75%;
   background-color: #000;
+}
+
+a.pick-img img {
+  transition: 0.35s;
+  transition-timing-function: ease-in-out;
+}
+
+a.pick-img:hover img {
+  transform: scale(1.25);
 }
 
 /* .pick a.more { */
@@ -161,9 +171,7 @@ a.more {
   left: 0;
   padding: 0 15%;
   font-weight: 700;
-  /* color: #da1c23; */
   color: #ff4256;
-  /* color: #ff406c; */
   text-align: center;
 }
 
