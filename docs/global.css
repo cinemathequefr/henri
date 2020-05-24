@@ -340,9 +340,7 @@ li.film .img-container img {
 }
 
 .colored.ispick {
-  /* color: #da1c23; */
   color: #ff4256;
-  /* color: #ff406c; */
 }
 
 .film-page .end {
@@ -352,6 +350,10 @@ li.film .img-container img {
   font-weight: 600;
   padding: 4px 8px;
   border-radius: 3px;
+}
+
+.film-page .end.ispick {
+  background-color: #ff4256;
 }
 
 .film-page .titre-film {
