@@ -364,6 +364,21 @@ li.film .img-container img {
   background-color: #ff4256;
 }
 
+.film-page .collection {
+  display: inline-block;
+  background: #72b7bb;
+  background: linear-gradient(90deg, #7db3af 0%, #7db3af 15%, #3cf 100%);
+  color: #444450;
+  padding: 6px 12px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.film-page .collection.ispick {
+  background: #ff406c;
+  background: linear-gradient(90deg, #ff406c 0%, #ff406c 15%, #ff4633 100%);
+}
+
 .film-page .titre-film {
   margin-bottom: 24px;
 }
