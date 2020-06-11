@@ -353,10 +353,11 @@ li.film .img-container img {
 
 .film-page .end {
   display: inline-block;
+  padding: 4px 8px;
+  margin-bottom: 12px;
   background-color: #7db3af;
   color: #444450;
   font-weight: 600;
-  padding: 4px 8px;
   border-radius: 3px;
 }
 
