@@ -187,9 +187,12 @@ h1.colored .sous-titre-fr {
   color: #607b7f;
 }
 
-h1.colored.ispick .sous-titre-fr {
+.film-page.ispick .sous-titre-fr {
   color: #a14353;
 }
+/* h1.colored.ispick .sous-titre-fr {
+  color: #a14353;
+} */
 
 a.pick-img > img {
   position: absolute;
@@ -343,13 +346,24 @@ li.film .img-container img {
   font-size: 1.125rem;
 }
 
+.film-page a {
+  color: #7db3af;
+}
+
+.film-page.ispick a {
+  color: #ff4256;
+}
+
 .colored {
   color: #7db3af;
 }
 
-.colored.ispick {
+.film-page.ispick .colored {
   color: #ff4256;
 }
+/* .colored.ispick {
+  color: #ff4256;
+} */
 
 .film-page .end {
   display: inline-block;
@@ -361,9 +375,12 @@ li.film .img-container img {
   border-radius: 3px;
 }
 
-.film-page .end.ispick {
+.film-page.ispick .end {
   background-color: #ff4256;
 }
+/* .film-page .end.ispick {
+  background-color: #ff4256;
+} */
 
 .film-page .collection {
   display: inline-block;
@@ -375,10 +392,14 @@ li.film .img-container img {
   font-weight: 400;
 }
 
-.film-page .collection.ispick {
+.film-page.ispick .collection {
   background: #ff406c;
   background: linear-gradient(90deg, #ff406c 0%, #ff406c 15%, #ff4633 100%);
 }
+/* .film-page .collection.ispick {
+  background: #ff406c;
+  background: linear-gradient(90deg, #ff406c 0%, #ff406c 15%, #ff4633 100%);
+} */
 
 .film-page .titre-film {
   margin-bottom: 24px;
