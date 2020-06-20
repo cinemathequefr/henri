@@ -446,6 +446,19 @@ a.catfilm {
   width: 75%;
 }
 
+.presentation {
+  margin-top: 36px;
+}
+
+.presentation > .video-wrapper {
+  width: 100%;
+}
+
+.presentation > p.title {
+  margin-top: -24px;
+  font-size: 1rem;
+}
+
 .video-container {
   position: relative;
   background-color: #000;
