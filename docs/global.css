@@ -3,6 +3,7 @@
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -79,6 +80,33 @@ h2 {
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+.collections-list {
+  position: relative;
+  font-size: 1.5rem;
+  font-weight: 400;
+  width: 100%;
+  max-width: 720px;
+  margin: 8px auto 36px auto;
+  text-align: center;
+}
+
+.collections-list a {
+  display: inline-block;
+  padding: 4px 0 4px 0;
+  margin: 0 4px;
+  background-color: transparent;
+  transition: 0.25s;
+  color: #6b8a99;
+  border-bottom: solid 3px #6b8a99;
+}
+
+.collections-list a:hover,
+.collections-list a:active {
+  color: #fff;
+  /* color: #33ccff; */
+  border-bottom-color: #33ccff;
 }
 
 .pick-container {
