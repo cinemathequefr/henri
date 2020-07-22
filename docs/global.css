@@ -96,8 +96,9 @@ h3 {
 }
 
 .collections-list a {
-  display: inline-block;
-  padding: 4px 0 4px 0;
+  display: inline;
+  padding: 0 0 2px 0;
+  line-height: 2.25rem;
   margin: 0 4px;
   background-color: transparent;
   transition: 0.25s;
@@ -112,8 +113,8 @@ h3 {
 }
 
 .collections-list a.archived {
-  color: #617886;
-  border-bottom-color: #617886;
+  color: #888;
+  border-bottom-color: #888;
 }
 
 .collections-list a.archived:hover,
@@ -439,6 +440,12 @@ li.film .img-container img {
   background-color: #ff4256;
 }
 
+.film-page .availability-message {
+  padding: 0;
+  margin: 0 0 24px 0;
+  color: #ccc;
+}
+
 .film-page .collection {
   display: inline-block;
   background: #72b7bb;
@@ -557,12 +564,7 @@ a.catfilm {
   align-items: center;
   font-size: 1.75rem;
   font-weight: 400;
-}
-
-@media (max-width: 374px) {
-  .pick-title-container .sous-titre-fr {
-    display: none;
-  }
+  text-align: center;
 }
 
 @media (max-width: 575px) {
@@ -615,7 +617,6 @@ a.catfilm {
   ul.grid {
     grid-template-columns: 1fr;
     grid-gap: 12px;
-    /* grid-gap: 4px; */
   }
   li.film {
     padding: 0;
@@ -640,6 +641,20 @@ a.catfilm {
 
   .video-wrapper {
     width: 100%;
+  }
+
+  .video-message {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 374px) {
+  .pick-title-container .sous-titre-fr {
+    display: none;
+  }
+
+  .video-message {
+    font-size: 1.25rem;
   }
 }
 
