@@ -61,6 +61,11 @@ article .hi {
   margin-top: 36px;
 }
 
+.info:after {
+  content: "🛈";
+  color: #fff;
+}
+
 h1 {
   font-size: 1.75rem;
   font-weight: 400;
