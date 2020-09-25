@@ -445,6 +445,13 @@ li.film .img-container img {
   background-color: #ff4256;
 }
 
+.film-page .age-info {
+  font-weight: 600;
+  /* margin: 36px 0; */
+  margin: 0;
+  text-align: right;
+}
+
 .film-page .availability-message {
   padding: 0;
   margin: 0 0 24px 0;
