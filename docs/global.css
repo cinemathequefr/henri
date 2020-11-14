@@ -159,12 +159,12 @@ h3 {
 .pick-label > h2 {
   margin: 0;
   display: inline-block;
-  /* background: #da1c23; */
   background: #ff406c;
   background: linear-gradient(90deg, #ff406c 0%, #ff406c 15%, #ff4633 100%);
   color: #444450;
   padding: 6px 12px 6px 12px;
   font-weight: 400;
+  white-space: nowrap;
 }
 
 .pick {
