@@ -367,7 +367,7 @@ li.film .img-container {
   position: relative;
   width: 100%;
   padding-bottom: 75%;
-  background-color: #444450;
+  /* background-color: #444450; */
   margin-bottom: 8px;
 }
 li.film .img-container img {
@@ -378,7 +378,7 @@ li.film .img-container img {
   width: 100%;
   width: 100%;
   height: auto;
-  background-color: #444450;
+  /* background-color: #444450; */
 }
 
 .film-info {
@@ -655,7 +655,7 @@ a.catfilm {
     position: relative;
     width: 50%;
     padding-bottom: 37.5%;
-    background-color: #000;
+    background-color: #444450;
     margin-bottom: 0;
   }
   li.film .film-info {
