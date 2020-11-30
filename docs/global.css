@@ -75,6 +75,15 @@ article .hi {
   margin-top: 36px;
 }
 
+article .note {
+  font-size: 0.938rem;
+  line-height: 1.125rem;
+}
+
+article .note a {
+  color: inherit !important;
+}
+
 /* .info:after {
   content: "🛈";
   color: #fff;
@@ -339,6 +348,17 @@ li.film {
 
 li.film:hover {
   background-color: #72b7bb;
+}
+
+li.film.ispick {
+  background-color: #704352;
+  /* background-color: #a14353; */
+}
+
+li.film.ispick:hover,
+li.film.ispick .duree,
+li.film.ispick .end {
+  background-color: #ff4256;
 }
 
 li.film.archived:hover {
