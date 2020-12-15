@@ -16,7 +16,9 @@ body {
 }
 
 sup {
+  display: inline-block;
   vertical-align: top;
+  transform: translateY(-0.25em);
 }
 
 a {
