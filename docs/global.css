@@ -120,7 +120,8 @@ h3 {
   font-size: 1.5rem;
   font-weight: 400;
   width: 100%;
-  max-width: 720px;
+  max-width: 840px;
+  /* max-width: 720px; */
   margin: 8px auto 36px auto;
   text-align: center;
 }
@@ -138,8 +139,8 @@ h3 {
 
 .collections-list a:hover,
 .collections-list a:active {
-  color: #fff;
-  border-bottom-color: #33ccff;
+  color: #fff !important;
+  border-bottom-color: #33ccff !important;
 }
 
 .collections-list a.archived {
@@ -151,6 +152,25 @@ h3 {
 .collections-list a.archived:active {
   color: #ccc;
   border-bottom-color: #ccc;
+}
+
+.collections-list a.glow {
+  animation: 2250ms ease-in-out 0ms 10 alternate none running glow;
+}
+
+@keyframes glow {
+  0% {
+    color: #6b8a99;
+    border-bottom-color: #6d8a99;
+  }
+  75% {
+    color: #6b8a99;
+    border-bottom-color: #6d8a99;
+  }
+  100% {
+    color: #fff;
+    border-bottom-color: #33ccff;
+  }
 }
 
 .pick-container {
