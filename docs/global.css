@@ -137,6 +137,12 @@ h3 {
   border-bottom: solid 3px #6b8a99;
 }
 
+@media (min-width: 1199px) {
+  .collections-list > a > span {
+    white-space: nowrap;
+  }
+}
+
 .collections-list a:hover,
 .collections-list a:active {
   color: #fff !important;
