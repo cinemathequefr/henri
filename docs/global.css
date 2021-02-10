@@ -632,9 +632,11 @@ li.film .img-container img {
   font-weight: 600;
 }
 
+/*
 .rem {
   font-style: italic;
 }
+*/
 
 .iscc:after {
   content: "CC";
