@@ -117,7 +117,8 @@ section {
 }
 
 section > .container {
-  margin: 30px auto;
+  margin: 0 auto 30px auto;
+  /* margin: 30px auto; */
   padding: 15px;
   max-width: 1100px;
   box-sizing: content-box;
