@@ -74,6 +74,12 @@
     url("fonts/source-serif-pro-v10-latin-300italic.woff") format("woff");
 }
 
+/* Essai, à supprimer ensuite */
+input[type="text"],
+button {
+  background-color: transparent;
+}
+
 html {
   font-size: 16px;
   /* scroll-behavior: smooth; */
