@@ -411,7 +411,7 @@ a.pick-img > .duree {
 
 .date-next-publication span,
 .date-next-publication svg {
-  display: inline-block;
+  display: inline;
   vertical-align: middle;
 }
 
@@ -772,6 +772,11 @@ a.catfilm {
     position: relative;
     width: 100%;
     padding-left: 0;
+  }
+
+  .date-next-publication {
+    padding-top: 0;
+    padding-left: 24px;
   }
 
   .stub {
