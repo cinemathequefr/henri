@@ -403,7 +403,7 @@ a.pick-img > .duree {
 }
 
 .date-next-publication {
-  padding: 24px 0 0 44px;
+  padding: 24px 0 0 22px;
   color: #ff4256;
   font-size: 1.125rem;
   font-weight: 600;
@@ -776,7 +776,7 @@ a.catfilm {
 
   .date-next-publication {
     padding-top: 0;
-    padding-left: 24px;
+    padding-left: 0;
   }
 
   .stub {
