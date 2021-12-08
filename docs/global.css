@@ -222,6 +222,12 @@ h3 {
   }
 }
 
+@media (min-width: 820px) {
+  .collections-list > a {
+    margin: 0 8px;
+  }
+}
+
 .collections-list > a:hover,
 .collections-list > a:active {
   color: #fff !important;
