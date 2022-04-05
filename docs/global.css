@@ -744,6 +744,33 @@ a.catfilm {
   text-align: center;
 }
 
+.encadre {
+  background-color: #fff;
+  color: #111;
+  min-height: 50vh;
+}
+
+.encadre h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.encadre p {
+  font-size: 1.375rem;
+  line-height: 1.25;
+  font-weight: 400;
+}
+
+.encadre strong {
+  font-weight: 600;
+}
+
+.encadre a {
+  text-decoration: underline;
+  text-decoration-color: #33ccff;
+  text-decoration-thickness: 2px;
+}
+
 @media (max-width: 575px) {
   html {
     font-size: 15px;
