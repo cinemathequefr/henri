@@ -1,0 +1,20 @@
+{
+  "background_color": "#444450",
+  "theme_color": "#eeeeee",
+  "name": "HENRI - Des films rares de la Cinémathèque française à voir en ligne",
+  "short_name": "HENRI",
+  "display": "minimal-ui",
+  "start_url": "/henri/",
+  "icons": [
+    {
+      "src": "logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
