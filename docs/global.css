@@ -335,9 +335,14 @@ h3 {
   padding-top: 36px;
 }
 
+.pick-spacer {
+  position: relative;
+  flex: 0 0 0%;
+}
+
 .pick-img-container {
   position: relative;
-  width: 50%;
+  flex: 0 0 50%;
   overflow: hidden;
 }
 
@@ -381,6 +386,10 @@ a.more {
   color: #ff4256;
   text-align: center;
   /* text-shadow: 1px 1px 2px #000c; */
+}
+
+.pick-title-container > div {
+  transform: skewY(-4deg);
 }
 
 .sous-titre-fr {
@@ -430,7 +439,7 @@ a.pick-img > .duree {
 
 .pick-film-info {
   position: relative;
-  width: 50%;
+  flex: 0 0 50%;
   padding: 0 24px 24px 24px;
   box-sizing: border-box;
   font-size: 1.125rem;
@@ -931,4 +940,26 @@ a.catfilm {
   ul.grid {
     grid-template-columns: 1fr 1fr;
   }
+}
+
+@media (min-width: 910px) {
+  .pick.small-pick .pick-spacer {
+    position: relative;
+    flex: 0 0 10%;
+  }
+
+  .pick.small-pick .pick-img-container {
+    flex: 0 0 40%;
+  }
+
+  .pick.small-pick .pick-title-container {
+    font-size: 3rem;
+    line-height: 2.75rem;
+  }
+
+  /*
+  .pick.small-pick .pick-film-info {
+    font-size: 1rem;
+  }
+  */
 }
