@@ -945,16 +945,16 @@ a.catfilm {
 @media (min-width: 910px) {
   .pick.small-pick .pick-spacer {
     position: relative;
-    flex: 0 0 10%;
+    flex: 0 0 20%;
   }
 
   .pick.small-pick .pick-img-container {
-    flex: 0 0 40%;
+    flex: 0 0 30%;
   }
 
   .pick.small-pick .pick-title-container {
-    font-size: 3rem;
-    line-height: 2.75rem;
+    font-size: 2.5rem;
+    line-height: 2.188rem;
   }
 
   /*
