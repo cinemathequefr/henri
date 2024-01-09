@@ -388,9 +388,11 @@ a.more {
   /* text-shadow: 1px 1px 2px #000c; */
 }
 
+/*
 .pick-title-container > div {
   transform: skewY(-2deg);
 }
+*/
 
 .sous-titre-fr {
   display: block;
