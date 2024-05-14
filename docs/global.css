@@ -220,6 +220,11 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
 .collections-list {
   position: relative;
   font-size: 1.5rem;
