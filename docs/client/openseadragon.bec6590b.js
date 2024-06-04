@@ -1,4 +1,4 @@
-import{J as e,K as t}from"./client.9d26e839.js";var i=e((function(e){
+import{J as e,K as t}from"./client.cfb58414.js";var i=e((function(e){
 //! openseadragon 4.1.0
 //! Built on 2023-05-25
 //! Git commit: v4.1.0-0-8849681
