@@ -1,0 +1,84 @@
+# ==============================================================================
+# ALLOW STANDARD SEARCH ENGINES & REAL-TIME LLM RETRIEVAL
+# ==============================================================================
+
+# Standard Search Engines (Google, Bing, DuckDuckGo, etc.)
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+User-agent: Baiduspider
+User-agent: YandexBot
+Allow: /
+
+# Live LLM Browsing & Search Features (User-initiated fetches & live citations)
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: PerplexityBot
+Allow: /
+
+
+# ==============================================================================
+# BLOCK AI MODEL TRAINING & OFFLINE SCRAPING
+# ==============================================================================
+
+# OpenAI Training Scraper
+User-agent: GPTBot
+Disallow: /
+
+# Google AI Training Scraper (Gemini, Vertex AI training)
+User-agent: Google-Extended
+Disallow: /
+
+# Anthropic Training Crawlers (Claude)
+User-agent: Anthropic-AI
+User-agent: ClaudeBot
+User-agent: claude-web
+Disallow: /
+
+# Common Crawl (Massive open dataset heavily used for AI training across the industry)
+User-agent: CCBot
+Disallow: /
+
+# Meta (Facebook) AI Scraping
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+# Apple AI Training
+User-agent: Applebot-Extended
+Disallow: /
+
+# Bytespider / ByteDance (TikTok AI training)
+User-agent: Bytespider
+Disallow: /
+
+# Cohere AI Training Scraper
+User-agent: cohere-ai
+Disallow: /
+
+# Amazon AI / Web Crawling
+User-agent: Amazonbot
+Disallow: /
+
+# Midjourney / Visual AI Scrapers
+User-agent: ImageSiftBot
+User-agent: img2dataset
+Disallow: /
+
+# Other Known Data Scraping & Mining Bots
+User-agent: Diffbot
+User-agent: Omgilibot
+User-agent: Omgili
+Disallow: /
+
+
+# ==============================================================================
+# GENERAL FALLBACK & SITEMAP
+# ==============================================================================
+
+User-agent: *
+Allow: /
+
+# Replace with your actual sitemap URL if applicable:
+# Sitemap: https://example.com/sitemap.xml
